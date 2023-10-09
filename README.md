@@ -10,11 +10,13 @@ The following steps will show you how to setup the project on your local machine
 
 - Node.js
 - Docker
+- PostgreSQL
 
 ### Installation Steps
 
 1. Clone the repository.
-2. Navigate to the `backend` directory and create a `.env` file with the following format:
+2. Run the `create-table.sql` script in your PostgreSQL database to create the necessary tables. This script is located in the root directory of the project.
+3. Navigate to the `backend` directory and create a `.env` file with the following format:
 
 ```env
 DB_NAME=
